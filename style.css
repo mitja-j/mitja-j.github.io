@@ -1,0 +1,175 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-image: url("tausta.jpg");
+	background-position: contain;
+	background-size: auto;
+	padding: 150px 0px 150px 0px;
+}
+
+header h1 {
+	font-size: 80px;
+	color: black;
+	text-align: center;
+	font-family: "Courier Prime", monospace; 
+}
+
+section {
+	width: 60%;
+	text-align: left;
+	margin: auto;
+	font-size: 18px;
+	font-family: "Noto Sans", sans-serif;
+	padding: 30px 0px 30px 0px;
+}
+
+.logo {
+	padding: 10px 10px 10px 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFD449;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+}
+
+a {
+  display: block;
+  padding: 15px;
+  background-color: #FFD449;
+}
+
+li a:hover {
+  background-color: #F9A620;
+}
+
+.active {
+	background-color: #F9A620;
+}
+
+.postaus {
+	width: 65%;
+	float: center;
+	padding: 15px;
+	background-color: #F0F0F0;
+	margin-top: 50px;
+}
+
+.otsikko {
+	font-family: "Courier Prime", monospace;
+	font-size: 30px;
+	background-color: #F0F0F0;
+	color: black;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+	text-align: left;
+}
+
+.paiva {
+	font-family: "Courier Prime", monospace;
+	font-size: 15px;
+}
+
+.blogikuva {
+	display: block;
+	margin: auto;
+	width: 75%;
+	padding: 30px;
+}
+
+.tiedot {
+	background-image: none;
+	padding: 50px 50px 50px 50px;
+	font-size: 40px;
+	font-family: "Courier Prime", monospace;
+	text-align: center;
+	
+}	
+
+.row {
+  display: flex;
+  font-family: "Courier Prime", monospace;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  font-size: 25px;
+  margin: 10px 20px 10px 20px;
+  background-color: #F0F0F0;
+}
+
+.some {
+	float: center;
+	background-color: #F0F0F0;
+}	
+
+footer {
+	background-color: #F0F0F0;
+	margin: 100px 0px 0px 0px;
+	padding: 20px;
+	text-align: center;
+	font-family: "Noto Sans", sans-serif;
+	
+}
+
+@media only screen and (min-width: 1025px) {
+  section {
+	width: 60%;
+	margin: auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+ section {
+	width: 90%;
+	margin: auto;
+	font-size: 17px;
+  }
+ header {
+	padding: 50px 0px 50px 0px;
+}
+header h1 {
+	font-size: 60px;
+}
+.row {
+  flex-direction: column;
+  float: center;
+}
+.column {
+  width: 100%;
+  font-size: 25px;
+  margin: 20px 20px 20px 20px;
+  background-color: #F0F0F0;
+}
+.postaus {
+	width: 90%;
+}
+ }
+@media only screen and (max-width: 500px) {
+header h1 {
+	font-size: 50px;
+}
+section {
+	font-size: 16px;
+}
+
+}
