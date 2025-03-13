@@ -5,7 +5,7 @@ html, body {
 
 header {
 	background-image: url("tausta.jpg");
-	background-position: contain;
+	background-position: center;
 	background-size: auto;
 	padding: 150px 0px 150px 0px;
 }
@@ -69,7 +69,7 @@ li a:hover {
 
 .postaus {
 	width: 65%;
-	float: center;
+	float: none;
 	padding: 15px;
 	background-color: #F0F0F0;
 	margin-top: 50px;
@@ -121,7 +121,7 @@ li a:hover {
 }
 
 .some {
-	float: center;
+	float: none;
 	background-color: #F0F0F0;
 }	
 
@@ -155,7 +155,7 @@ header h1 {
 }
 .row {
   flex-direction: column;
-  float: center;
+  float: none;
 }
 .column {
   width: 100%;
